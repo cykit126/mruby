@@ -22,6 +22,8 @@ MRuby::Build.new do |conf|
   # include the default GEMs
   conf.gembox 'default'
 
+  conf.gem :github => 'mattn/mruby-require'
+
   # C compiler settings
   # conf.cc do |cc|
   #   cc.command = ENV['CC'] || 'gcc'
